@@ -20,3 +20,9 @@ export interface NavListItem {
   hasChilds: boolean;
   subChildsData?: SubChild[] | undefined;
 }
+
+export interface TokenDataType {
+  email: string,
+  companyName: string
+}
+
